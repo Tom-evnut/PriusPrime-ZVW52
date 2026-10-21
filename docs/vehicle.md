@@ -26,7 +26,8 @@ Cell count is confirmed in the field: OBDb's cell-voltage request (`747 / 22 182
 - Toyota's terminal lists (earlier PHV generation) show the plug-in charge control ECU with several CAN pairs (CA1/CA4/CA5) **plus a separate CAN pair on the charger connector**. That private ECU-to-charger link is the main thing to capture for standalone charger use. Not yet confirmed for ZVW52. See [mytoyo - Plug-in Charge Control System](https://www.mytoyo.com/plug_in_charge_control_system_for_phev_model_-2489.html) and [Automotive Tech Info](https://automotivetechinfo.com/2023/02/on-the-juice-a-toyota-prius-performance-enhancement-to-beat-the-competition/).
 - A separate **charge contactor** exists. OBDb exposes its solenoid current from `7B0 / 21 A3` (`PRIUSPRIME_SCC_SOLENOID_CURRENT`).
 - JDM/EU cars have an optional **solar roof** charging system.
-- Part numbers: TODO. G9060-47130 is the portable **EVSE cable**, not the OBC.
+- OBC part numbers, related parts and pinout status: see [obc.md](obc.md). US: G9099-47040/-47050 (2017-19) through G9099-47092 (2021-22). JDM: G9099-47020/-47021. G9060-47130 is the portable **EVSE cable**, not the OBC.
+- The JDM parts catalogue lists no separate plug-in charge control ECU for ZVW52 (unlike the 2023+ car), so charge control is probably inside the charger assembly and/or the hybrid ECU.
 
 ## ECUs of interest
 

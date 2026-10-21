@@ -28,6 +28,14 @@
 - [PriusChat - Prime EVSE G9060-47130](https://priuschat.com/goto/post?id=2659975)
 - [go-parts - 2023+ Prime charge port TSB T-SB-0054-24](https://www.go-parts.com/garage/drive-motor-battery-pack-charging-port-connector-toyota-prius-prime-2023-2025) (Gen 3, plug-in ECU not sleeping)
 
+## Parts catalogues
+
+- [jp-carparts - ZVW52-AHXHB fig 8442 DC/DC converter & charger](https://jp-carparts.com/toyota/partlist.php?maker=toyota&type=224130&cartype=3&fig=8442) (JDM, includes fig 8433 HEV control computer)
+- [Amayama - ZVW52 EV charger & DC/DC converter](https://www.amayama.com/en/catalogs/toyota/prius-phv/4-hatchback-right-zvw52-2017-3348/electrics-4/ev-charger-dc-dc-converter-366) (bot check)
+- [toyotapartsdeal - G9099-47050](https://www.toyotapartsdeal.com/oem/toyota~charger~assy~electric~g9099-47050.html) and sibling pages for -47040/-47041/-47051/-47090/-47091/-47092
+- [mytoyo - 2023+ (XW60) plug-in charge control system](https://www.mytoyo.com/plug_in_charge_control_system_for_phev_model_-2489.html): wrong generation, but has terminal tables and DTC list
+- [Toyota TIS](https://techinfo.toyota.com) (paid, short-term subscriptions) and [Haynes online ZVW50/52/55](https://uk.haynes.com/products/toyota-prius-prime-zvw50-zvw52-zvw55-from-2015-to-2022)
+
 ## Related projects
 
 - [nelsonblaha/prius-bridge](https://github.com/nelsonblaha/prius-bridge): comma 3X + Toyota cloud to Home Assistant on a 2022 Prime. Gets charge status from the cloud, not CAN.

@@ -8,6 +8,7 @@ No public DBC exists for this car's hybrid or charging buses. The plan is to sta
 
 | Path | Contents |
 |---|---|
+| [`docs/obc.md`](docs/obc.md) | **Onboard charger**: part numbers (US/JDM, all revisions), related parts, interchange no., pinout status |
 | [`docs/vehicle.md`](docs/vehicle.md) | Specs, generations (Gen 1/2/3 pack and charger differences), charging system, ECUs |
 | [`docs/can-findings.md`](docs/can-findings.md) | What's on the comma-visible bus, DBC coverage, **Prime-specific candidate IDs** |
 | [`docs/diagnostic-pids.md`](docs/diagnostic-pids.md) | Polled UDS PIDs (95 cell voltages, SOC, pack V/I, DC-DC, charge contactor...), generated from OBDb |
@@ -42,11 +43,14 @@ python tools/comma_segments.py export Logs/comma/<dongle>/<route>/<seg>/rlog.zst
 - [x] Separate Prime from regular Prius segments in commaCarSegments (by VIN on CAN 0x580-0x582)
 - [x] First list of Prime-only broadcast IDs on the camera bus (0x338, 0x3CE, 0x48C-0x48F, ...)
 - [ ] Capture at the camera connector while plugged in, to see if the Prime candidates change during charging
-- [ ] Service manual / EWD: plug-in charge control ECU and OBC connector pinouts, which CAN pairs go where
-- [ ] OBC part number(s), source a used OBC + plug-in charge control ECU
+- [x] OBC part numbers (US G9099-47040...-47092, JDM G9099-47020/-47021, Hollander 660-10018)
+- [ ] Service manual (TIS) *Terminals of ECU* for the charger: LV connector pinout, which CAN pairs go where
+- [ ] Source a used OBC with harness (821H5-47030) and ring out the LV connector on the bench
 - [ ] Capture ECU <-> OBC CAN during a full charge session, while polling OBDb PIDs for reference values
 - [ ] Bench test: replay plug-in ECU frames to run the OBC standalone
 
 ## Log
 
 21/10/26 : Repo created. Collected opendbc DBCs, OBDb PIDs, commaCarSegments index (12,410 Prius-family segments). Sampled 40 segments (21 Prime by VIN) and found a group of Prime-specific IDs on the gateway bus. 0x3CE carries live per-car data.
+
+21/10/26 : Added OBC part numbers and related parts from US and JDM catalogues. No public pinout found. Next step is TIS or bench ring-out.
