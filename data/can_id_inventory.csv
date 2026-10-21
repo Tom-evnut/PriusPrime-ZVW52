@@ -1,0 +1,409 @@
+bus,id_hex,id_dec,hz,dlc,segments,prime_segments,dbc_name
+0,0x024,36,82.66,8,40,21,KINEMATICS (toyota_nodsu_pt_generated)
+0,0x025,37,82.66,8,40,21,STEER_ANGLE_SENSOR (toyota_nodsu_pt_generated)
+0,0x0A6,166,82.64,8,40,21,BRAKE (toyota_nodsu_pt_generated)
+0,0x0AA,170,82.66,8,40,21,WHEEL_SPEEDS (toyota_nodsu_pt_generated)
+0,0x0B4,180,41.33,8,40,21,SPEED (toyota_nodsu_pt_generated)
+0,0x127,295,60.88,8,40,21,GEAR_PACKET_HYBRID (toyota_nodsu_pt_generated)
+0,0x128,296,60.88,8,40,21,
+0,0x1AA,426,20.67,6,40,21,VSC1F02 (toyota_nodsu_pt_generated)
+0,0x1C4,452,42.34,8,40,21,ENGINE_RPM (toyota_nodsu_pt_generated)
+0,0x1D2,466,31.42,8,40,21,PCM_CRUISE (toyota_nodsu_pt_generated)
+0,0x1D3,467,31.42,8,40,21,PCM_CRUISE_2 (toyota_nodsu_pt_generated)
+0,0x201,513,48.82,6,1,0,
+0,0x226,550,41.33,8,40,21,BRAKE_MODULE (toyota_nodsu_pt_generated)
+0,0x228,552,41.33,4,40,21,VSC1S29 (toyota_nodsu_pt_generated)
+0,0x230,560,41.33,7,40,21,BRAKE_2 (toyota_nodsu_pt_generated)
+0,0x232,562,27.55,6,40,21,VSC1S14 (toyota_2017_ref_pt)
+0,0x245,581,42.34,5,40,21,GAS_PEDAL_HYBRID (toyota_nodsu_pt_generated)
+0,0x260,608,49.87,8,40,21,STEER_TORQUE_SENSOR (toyota_nodsu_pt_generated)
+0,0x262,610,24.94,8,40,21,EPS_STATUS (toyota_nodsu_pt_generated)
+0,0x266,614,41.67,8,20,9,STEERING_IPAS (toyota_nodsu_pt_generated)
+0,0x283,643,31.17,7,39,20,PRE_COLLISION (toyota_nodsu_pt_generated)
+0,0x292,658,31.26,8,20,9,
+0,0x2C9,713,31.42,8,40,21,
+0,0x2E4,740,2.95,5,1,1,STEERING_LKA (toyota_nodsu_pt_generated)
+0,0x2E6,742,31.16,8,39,20,LEAD_INFO (toyota_nodsu_pt_generated)
+0,0x2E7,743,31.17,8,39,20,
+0,0x2FC,764,1.00,8,2,1,
+0,0x2FF,767,204.21,4,6,2,
+0,0x320,800,20.67,8,40,21,VSC1S07 (toyota_nodsu_pt_generated)
+0,0x32A,810,20.67,2,40,21,
+0,0x32E,814,5.01,8,20,9,
+0,0x338,824,10.09,2/8,19,17,
+0,0x339,825,9.99,8,1,0,
+0,0x33D,829,3.99,2,40,21,
+0,0x33E,830,4.99,7,39,20,
+0,0x343,835,31.16,8,37,20,ACC_CONTROL (toyota_nodsu_pt_generated)
+0,0x344,836,20.78,8,39,20,PRE_COLLISION_2 (toyota_nodsu_pt_generated)
+0,0x34D,845,9.75,5,6,0,AFS1S02 (toyota_2017_ref_pt)
+0,0x35D,861,10.00,8,1,0,
+0,0x35F,863,9.94,8,40,21,
+0,0x361,865,15.50,8,9,6,CLUTCH (toyota_nodsu_pt_generated)
+0,0x365,869,4.99,7,39,20,DSU_CRUISE (toyota_nodsu_pt_generated)
+0,0x366,870,4.99,7,39,20,DS11D71 (toyota_2017_ref_pt)
+0,0x367,871,0.18,2,1,1,DS11D72 (toyota_2017_ref_pt)
+0,0x36B,875,9.99,8,1,0,
+0,0x380,896,1.00,8,9,6,ACN1S01 (toyota_2017_ref_pt)
+0,0x382,898,1.01,8,40,21,AIR_CONDITIONER (toyota_nodsu_pt_generated)
+0,0x384,900,0.33,6,34,21,AVN1S01 (toyota_2017_ref_pt)
+0,0x386,902,0.33,6,34,21,AVN1S03 (toyota_2017_ref_pt)
+0,0x389,905,1.00,8,35,21,AVN1S08 (toyota_2017_ref_pt)
+0,0x391,913,0.99,8,27,21,AFS1S01 (toyota_2017_ref_pt)
+0,0x396,918,1.00,8,20,9,CSR1S01 (toyota_2017_ref_pt)
+0,0x399,921,0.99,8,40,21,PCM_CRUISE_SM (toyota_nodsu_pt_generated)
+0,0x3A5,933,1.50,8,34,21,AVN1S13 (toyota_2017_ref_pt)
+0,0x3A6,934,0.33,8,2,1,
+0,0x3A7,935,0.33,8,2,1,
+0,0x3B0,944,1.00,8,40,21,AIR_CONDITIONER_2 (toyota_nodsu_pt_generated)
+0,0x3B1,945,1.00,8,40,21,ABG1S01 (toyota_2017_ref_pt)
+0,0x3B6,950,1.01,8,40,21,
+0,0x3B7,951,3.45,8,40,21,ESP_CONTROL (toyota_nodsu_pt_generated)
+0,0x3B9,953,0.97,8,40,21,
+0,0x3BB,955,0.99,8,40,21,ENG1S92 (toyota_2017_ref_pt)
+0,0x3BC,956,0.97,8,40,21,GEAR_PACKET (toyota_nodsu_pt_generated)
+0,0x3CB,971,9.94,7,40,21,
+0,0x3CE,974,1.01,8,23,21,
+0,0x3CF,975,7.61,5,40,21,
+0,0x3E1,993,1.99,8,40,21,
+0,0x3E6,998,0.33,5,34,21,AVN1S11 (toyota_2017_ref_pt)
+0,0x3E7,999,0.33,7,34,21,AVN1S17 (toyota_2017_ref_pt)
+0,0x3E8,1000,0.33,8,34,21,AVN1S18 (toyota_2017_ref_pt)
+0,0x3E9,1001,0.33,8,34,21,AVN1S19 (toyota_2017_ref_pt)
+0,0x3EA,1002,1.00,8,2,0,
+0,0x3ED,1005,0.93,2,2,0,REVERSE_CAMERA_STATE (toyota_nodsu_pt_generated)
+0,0x3F6,1014,1.00,8,22,9,BSM (toyota_nodsu_pt_generated)
+0,0x3F9,1017,3.99,8,40,21,ENG1F03 (toyota_2017_ref_pt)
+0,0x3FC,1020,19.94,8,40,21,SOLAR_SENSOR (toyota_nodsu_pt_generated)
+0,0x411,1041,1.00,8,39,20,PCS_HUD (toyota_nodsu_pt_generated)
+0,0x412,1042,0.07,8,1,1,LKAS_HUD (toyota_nodsu_pt_generated)
+0,0x414,1044,0.07,8,1,1,AUTO_HIGH_BEAM (toyota_nodsu_pt_generated)
+0,0x420,1056,1.01,8,40,21,VSC1S08 (toyota_nodsu_pt_generated)
+0,0x421,1057,1.00,8,40,21,
+0,0x423,1059,0.99,1,40,21,STR1S02 (toyota_2017_ref_pt)
+0,0x42F,1071,1.00,8,40,21,
+0,0x434,1076,1.00,8,24,21,AVN1S20 (toyota_2017_ref_pt)
+0,0x435,1077,1.00,8,34,21,AVN1S21 (toyota_2017_ref_pt)
+0,0x43A,1082,1.00,8,20,9,
+0,0x43B,1083,1.00,8,20,9,AUTOPARK_STATUS (toyota_nodsu_pt_generated)
+0,0x43C,1084,1.00,8,39,21,
+0,0x43D,1085,1.00,8,39,21,
+0,0x43E,1086,1.00,8,39,21,
+0,0x45A,1114,5.08,8,40,21,CGW1N02 (toyota_2017_ref_pt)
+0,0x46A,1130,3.45,8,1,0,
+0,0x46C,1132,5.18,8,39,21,
+0,0x489,1161,0.08,8,1,1,RSA1 (toyota_nodsu_pt_generated)
+0,0x48A,1162,0.08,8,1,1,RSA2 (toyota_nodsu_pt_generated)
+0,0x48B,1163,0.08,8,1,1,RSA3 (toyota_nodsu_pt_generated)
+0,0x48C,1164,2.00,8,19,17,
+0,0x48D,1165,2.00,8,19,17,
+0,0x48E,1166,2.00,8,19,17,
+0,0x48F,1167,2.00,8,19,17,
+0,0x497,1175,1.00,8,20,9,
+0,0x4CB,1227,0.99,8,39,20,ACC1N01 (toyota_2017_ref_pt)
+0,0x4CC,1228,0.98,8,20,9,CSR1N01 (toyota_2017_ref_pt)
+0,0x4D3,1235,0.07,8,1,1,FCM1N01 (toyota_2017_ref_pt)
+0,0x4D5,1237,0.81,8,22,9,BSR1N01 (toyota_2017_ref_pt)
+0,0x4EF,1263,0.83,8,1,0,MAV1N01 (toyota_2017_ref_pt)
+0,0x4F0,1264,0.92,8,2,0,
+0,0x4FF,1279,0.77,8,40,21,FRD1N01 (toyota_2017_ref_pt)
+0,0x605,1541,1.00,8,8,6,
+0,0x610,1552,2.20,8,40,21,BODY_CONTROL_STATE_2 (toyota_nodsu_pt_generated)
+0,0x611,1553,1.01,8,40,21,UI_SETTING (toyota_nodsu_pt_generated)
+0,0x614,1556,1.06,8,40,21,BLINKERS_STATE (toyota_nodsu_pt_generated)
+0,0x615,1557,0.16,8,40,21,
+0,0x620,1568,3.33,8,40,21,BODY_CONTROL_STATE (toyota_nodsu_pt_generated)
+0,0x622,1570,1.00,8,40,21,LIGHT_STALK (toyota_nodsu_pt_generated)
+0,0x623,1571,1.00,8,40,21,CERTIFICATION_ECU (toyota_nodsu_pt_generated)
+0,0x624,1572,1.00,8,40,21,
+0,0x638,1592,1.00,8,9,6,DOOR_LOCKS (toyota_nodsu_pt_generated)
+0,0x639,1593,1.00,8,1,0,
+0,0x63B,1595,1.96,8,40,21,
+0,0x671,1649,1.00,8,7,5,
+0,0x691,1681,1.00,8,1,0,
+0,0x6F1,1777,0.10,8,40,21,
+0,0x6F3,1779,1.00,8,40,21,ADAS_TOGGLE_STATE (toyota_nodsu_pt_generated)
+0,0x6FA,1786,0.33,8,2,1,
+0,0x6FB,1787,0.33,8,2,1,
+0,0x6FC,1788,0.33,8,2,1,
+0,0x6FD,1789,0.33,8,2,1,
+0,0x708,1800,0.21,8,1,1,
+0,0x738,1848,0.02,8,1,1,
+0,0x74F,1871,0.02,8,1,1,
+0,0x758,1880,0.23,8,1,1,
+0,0x770,1904,0.97,8,1,1,
+0,0x778,1912,0.83,8,1,1,
+0,0x788,1928,0.11,8,1,1,
+0,0x794,1940,0.03,8,1,1,
+0,0x795,1941,0.03,8,1,1,
+0,0x799,1945,0.07,8,1,1,
+0,0x79C,1948,0.03,8,1,1,
+0,0x79D,1949,0.03,8,1,1,
+0,0x7A9,1961,0.10,8,1,1,
+0,0x7B8,1976,0.10,8,1,1,
+0,0x7BB,1979,0.02,8,1,1,
+0,0x7CC,1996,0.11,8,1,1,
+0,0x7CE,1998,0.02,8,1,1,
+0,0x7D8,2008,0.02,8,1,1,
+0,0x7DA,2010,0.18,8,1,1,
+0,0x7DC,2012,0.02,8,1,1,
+0,0x7DF,2015,1.78,8,1,0,
+0,0x7E8,2024,0.90,8,2,1,
+0,0x7EA,2026,1.77,8,1,0,
+0,0x7EE,2030,1.77,8,1,0,
+1,0x123,291,10.00,7,40,21,STATUS_MSG (toyota_adas)
+1,0x128,296,31.25,6,39,20,
+1,0x130,304,1.00,7,40,21,
+1,0x141,321,62.49,4,39,20,
+1,0x160,352,15.62,8,39,20,
+1,0x161,353,15.62,7,39,20,DSU_SPEED (toyota_nodsu_pt_generated)
+1,0x210,528,20.00,8,40,21,TRACK_A_0 (toyota_adas)
+1,0x211,529,20.00,8,40,21,TRACK_A_1 (toyota_adas)
+1,0x212,530,20.00,8,40,21,TRACK_A_2 (toyota_adas)
+1,0x213,531,20.00,8,40,21,TRACK_A_3 (toyota_adas)
+1,0x214,532,20.00,8,40,21,TRACK_A_4 (toyota_adas)
+1,0x215,533,20.00,8,40,21,TRACK_A_5 (toyota_adas)
+1,0x216,534,20.00,8,40,21,TRACK_A_6 (toyota_adas)
+1,0x217,535,20.00,8,40,21,TRACK_A_7 (toyota_adas)
+1,0x218,536,20.00,8,40,21,TRACK_A_8 (toyota_adas)
+1,0x219,537,20.00,8,40,21,TRACK_A_9 (toyota_adas)
+1,0x21A,538,20.00,8,40,21,TRACK_A_10 (toyota_adas)
+1,0x21B,539,20.00,8,40,21,TRACK_A_11 (toyota_adas)
+1,0x21C,540,20.00,8,40,21,TRACK_A_12 (toyota_adas)
+1,0x21D,541,20.00,8,40,21,TRACK_A_13 (toyota_adas)
+1,0x21E,542,20.00,8,40,21,TRACK_A_14 (toyota_adas)
+1,0x21F,543,20.00,8,40,21,TRACK_A_15 (toyota_adas)
+1,0x220,544,20.00,8,40,21,VSC2F07 (toyota_2017_ref_pt)
+1,0x221,545,20.00,8,40,21,VSC2F05 (toyota_2017_ref_pt)
+1,0x222,546,20.00,8,40,21,TRACK_B_2 (toyota_adas)
+1,0x223,547,20.00,8,40,21,TRACK_B_3 (toyota_adas)
+1,0x224,548,20.00,8,40,21,TRACK_B_4 (toyota_adas)
+1,0x225,549,20.00,8,40,21,TRACK_B_5 (toyota_adas)
+1,0x226,550,20.00,8,40,21,BRAKE_MODULE (toyota_nodsu_pt_generated)
+1,0x227,551,20.00,8,40,21,TRACK_B_7 (toyota_adas)
+1,0x228,552,20.00,6,40,21,VSC1S29 (toyota_nodsu_pt_generated)
+1,0x229,553,20.00,6,40,21,TRACK_B_9 (toyota_adas)
+1,0x22A,554,20.00,6,40,21,TRACK_B_10 (toyota_adas)
+1,0x22B,555,20.00,6,40,21,TRACK_B_11 (toyota_adas)
+1,0x22C,556,20.00,6,40,21,TRACK_B_12 (toyota_adas)
+1,0x22D,557,20.00,6,40,21,TRACK_B_13 (toyota_adas)
+1,0x22E,558,20.00,6,40,21,TRACK_B_14 (toyota_adas)
+1,0x22F,559,20.00,6,40,21,TRACK_B_15 (toyota_adas)
+1,0x230,560,20.00,7,40,21,BRAKE_2 (toyota_nodsu_pt_generated)
+1,0x231,561,20.00,8,40,21,
+1,0x232,562,20.00,8,40,21,VSC1S14 (toyota_2017_ref_pt)
+1,0x240,576,20.00,8,40,21,
+1,0x241,577,20.00,8,40,21,
+1,0x244,580,20.00,8,40,21,
+1,0x245,581,20.00,8,40,21,GAS_PEDAL_HYBRID (toyota_nodsu_pt_generated)
+1,0x248,584,20.00,8,40,21,
+1,0x24A,586,20.00,2,2,0,
+1,0x24B,587,20.00,8,2,0,
+1,0x340,832,10.00,8,40,21,
+1,0x341,833,10.00,8,40,21,
+1,0x342,834,10.00,8,40,21,
+1,0x343,835,10.00,8,40,21,ACC_CONTROL (toyota_nodsu_pt_generated)
+1,0x344,836,10.00,8,40,21,PRE_COLLISION_2 (toyota_nodsu_pt_generated)
+1,0x345,837,10.00,8,40,21,
+1,0x363,867,10.00,8,40,21,
+1,0x364,868,10.00,8,40,21,
+1,0x365,869,10.00,8,40,21,DSU_CRUISE (toyota_nodsu_pt_generated)
+1,0x370,880,10.00,8,40,21,
+1,0x371,881,10.00,8,40,21,LTA_RELATED (toyota_nodsu_pt_generated)
+1,0x372,882,10.00,8,40,21,
+1,0x373,883,10.00,8,40,21,
+1,0x374,884,10.00,8,40,21,
+1,0x375,885,10.00,8,40,21,
+1,0x380,896,10.00,8,40,21,ACN1S01 (toyota_2017_ref_pt)
+1,0x381,897,10.00,8,40,21,ACN1S04 (toyota_2017_ref_pt)
+1,0x382,898,10.00,8,40,21,AIR_CONDITIONER (toyota_nodsu_pt_generated)
+1,0x383,899,10.00,8,40,21,
+1,0x3D0,976,10.00,8,40,21,
+1,0x3D1,977,10.00,8,40,21,
+1,0x3D2,978,10.00,8,40,21,
+1,0x3D3,979,10.00,8,40,21,ENG1S28 (toyota_2017_ref_pt)
+1,0x431,1073,1.00,8,2,0,
+1,0x466,1126,1.04,3,40,21,
+1,0x470,1136,1.00,4,39,20,
+2,0x024,36,5.87,8,1,1,KINEMATICS (toyota_nodsu_pt_generated)
+2,0x025,37,5.87,8,1,1,STEER_ANGLE_SENSOR (toyota_nodsu_pt_generated)
+2,0x0A6,166,5.85,8,1,1,BRAKE (toyota_nodsu_pt_generated)
+2,0x0AA,170,5.85,8,1,1,WHEEL_SPEEDS (toyota_nodsu_pt_generated)
+2,0x0B4,180,2.93,8,1,1,SPEED (toyota_nodsu_pt_generated)
+2,0x127,295,4.31,8,1,1,GEAR_PACKET_HYBRID (toyota_nodsu_pt_generated)
+2,0x128,296,4.31,8,1,1,
+2,0x1AA,426,1.46,6,1,1,VSC1F02 (toyota_nodsu_pt_generated)
+2,0x1C4,452,3.00,8,1,1,ENGINE_RPM (toyota_nodsu_pt_generated)
+2,0x1D2,466,2.23,8,1,1,PCM_CRUISE (toyota_nodsu_pt_generated)
+2,0x1D3,467,2.23,8,1,1,PCM_CRUISE_2 (toyota_nodsu_pt_generated)
+2,0x226,550,2.93,8,1,1,BRAKE_MODULE (toyota_nodsu_pt_generated)
+2,0x228,552,2.93,4,1,1,VSC1S29 (toyota_nodsu_pt_generated)
+2,0x230,560,2.93,7,1,1,BRAKE_2 (toyota_nodsu_pt_generated)
+2,0x232,562,1.95,6,1,1,VSC1S14 (toyota_2017_ref_pt)
+2,0x245,581,3.00,5,1,1,GAS_PEDAL_HYBRID (toyota_nodsu_pt_generated)
+2,0x24B,587,0.02,8,1,1,
+2,0x260,608,3.54,8,1,1,STEER_TORQUE_SENSOR (toyota_nodsu_pt_generated)
+2,0x262,610,1.74,8,1,1,EPS_STATUS (toyota_nodsu_pt_generated)
+2,0x266,614,2.95,8,1,1,STEERING_IPAS (toyota_nodsu_pt_generated)
+2,0x283,643,2.20,7,1,1,PRE_COLLISION (toyota_nodsu_pt_generated)
+2,0x292,658,2.18,8,1,1,
+2,0x2C9,713,2.23,8,1,1,
+2,0x2E4,740,41.67,5,40,21,STEERING_LKA (toyota_nodsu_pt_generated)
+2,0x2E6,742,2.20,8,1,1,LEAD_INFO (toyota_nodsu_pt_generated)
+2,0x2E7,743,2.20,8,1,1,
+2,0x320,800,1.47,8,1,1,VSC1S07 (toyota_nodsu_pt_generated)
+2,0x32A,810,1.47,2,1,1,
+2,0x32E,814,0.36,8,1,1,
+2,0x338,824,0.72,2,1,1,
+2,0x33D,829,0.28,2,1,1,
+2,0x33E,830,0.34,7,1,1,
+2,0x343,835,2.21,8,1,1,ACC_CONTROL (toyota_nodsu_pt_generated)
+2,0x344,836,1.46,8,1,1,PRE_COLLISION_2 (toyota_nodsu_pt_generated)
+2,0x35F,863,0.70,8,1,1,
+2,0x361,865,1.10,8,1,1,CLUTCH (toyota_nodsu_pt_generated)
+2,0x365,869,0.36,7,1,1,DSU_CRUISE (toyota_nodsu_pt_generated)
+2,0x366,870,0.34,7,1,1,DS11D71 (toyota_2017_ref_pt)
+2,0x367,871,2.55,2,40,21,DS11D72 (toyota_2017_ref_pt)
+2,0x380,896,0.07,8,1,1,ACN1S01 (toyota_2017_ref_pt)
+2,0x382,898,0.07,8,1,1,AIR_CONDITIONER (toyota_nodsu_pt_generated)
+2,0x384,900,0.03,6,1,1,AVN1S01 (toyota_2017_ref_pt)
+2,0x386,902,0.03,6,1,1,AVN1S03 (toyota_2017_ref_pt)
+2,0x389,905,0.07,8,1,1,AVN1S08 (toyota_2017_ref_pt)
+2,0x391,913,0.08,8,1,1,AFS1S01 (toyota_2017_ref_pt)
+2,0x396,918,0.07,8,1,1,CSR1S01 (toyota_2017_ref_pt)
+2,0x399,921,0.07,8,1,1,PCM_CRUISE_SM (toyota_nodsu_pt_generated)
+2,0x3A5,933,0.15,8,1,1,AVN1S13 (toyota_2017_ref_pt)
+2,0x3B0,944,0.07,8,1,1,AIR_CONDITIONER_2 (toyota_nodsu_pt_generated)
+2,0x3B1,945,0.07,8,1,1,ABG1S01 (toyota_2017_ref_pt)
+2,0x3B6,950,0.07,8,1,1,
+2,0x3B7,951,0.25,8,1,1,ESP_CONTROL (toyota_nodsu_pt_generated)
+2,0x3B9,953,0.07,8,1,1,
+2,0x3BB,955,0.07,8,1,1,ENG1S92 (toyota_2017_ref_pt)
+2,0x3BC,956,0.07,8,1,1,GEAR_PACKET (toyota_nodsu_pt_generated)
+2,0x3CB,971,0.70,7,1,1,
+2,0x3CE,974,0.08,8,1,1,
+2,0x3CF,975,0.54,5,1,1,
+2,0x3E1,993,0.15,8,1,1,
+2,0x3E6,998,0.03,5,1,1,AVN1S11 (toyota_2017_ref_pt)
+2,0x3E7,999,0.03,7,1,1,AVN1S17 (toyota_2017_ref_pt)
+2,0x3E8,1000,0.03,8,1,1,AVN1S18 (toyota_2017_ref_pt)
+2,0x3E9,1001,0.03,8,1,1,AVN1S19 (toyota_2017_ref_pt)
+2,0x3F6,1014,0.07,8,1,1,BSM (toyota_nodsu_pt_generated)
+2,0x3F9,1017,0.29,8,1,1,ENG1F03 (toyota_2017_ref_pt)
+2,0x3FC,1020,1.41,8,1,1,SOLAR_SENSOR (toyota_nodsu_pt_generated)
+2,0x411,1041,0.07,8,1,1,PCS_HUD (toyota_nodsu_pt_generated)
+2,0x412,1042,1.02,8,40,21,LKAS_HUD (toyota_nodsu_pt_generated)
+2,0x414,1044,1.02,8,38,21,AUTO_HIGH_BEAM (toyota_nodsu_pt_generated)
+2,0x420,1056,0.07,8,1,1,VSC1S08 (toyota_nodsu_pt_generated)
+2,0x421,1057,0.07,8,1,1,
+2,0x423,1059,0.07,1,1,1,STR1S02 (toyota_2017_ref_pt)
+2,0x42F,1071,0.08,8,1,1,
+2,0x434,1076,0.08,8,1,1,AVN1S20 (toyota_2017_ref_pt)
+2,0x435,1077,0.08,8,1,1,AVN1S21 (toyota_2017_ref_pt)
+2,0x43A,1082,0.07,8,1,1,
+2,0x43B,1083,0.07,8,1,1,AUTOPARK_STATUS (toyota_nodsu_pt_generated)
+2,0x43C,1084,0.07,8,1,1,
+2,0x43D,1085,0.08,8,1,1,
+2,0x43E,1086,0.07,8,1,1,
+2,0x45A,1114,0.38,8,1,1,CGW1N02 (toyota_2017_ref_pt)
+2,0x46C,1132,0.36,8,1,1,
+2,0x489,1161,1.00,8,40,21,RSA1 (toyota_nodsu_pt_generated)
+2,0x48A,1162,1.00,8,40,21,RSA2 (toyota_nodsu_pt_generated)
+2,0x48B,1163,1.00,8,40,21,RSA3 (toyota_nodsu_pt_generated)
+2,0x48C,1164,0.15,8,1,1,
+2,0x48D,1165,0.15,8,1,1,
+2,0x48E,1166,0.15,8,1,1,
+2,0x48F,1167,0.15,8,1,1,
+2,0x497,1175,0.07,8,1,1,
+2,0x4CB,1227,0.07,8,1,1,ACC1N01 (toyota_2017_ref_pt)
+2,0x4CC,1228,0.07,8,1,1,CSR1N01 (toyota_2017_ref_pt)
+2,0x4D3,1235,0.83,8,40,21,FCM1N01 (toyota_2017_ref_pt)
+2,0x4D5,1237,0.05,8,1,1,BSR1N01 (toyota_2017_ref_pt)
+2,0x4FF,1279,0.05,8,1,1,FRD1N01 (toyota_2017_ref_pt)
+2,0x605,1541,0.07,8,1,1,
+2,0x610,1552,0.13,8,1,1,BODY_CONTROL_STATE_2 (toyota_nodsu_pt_generated)
+2,0x611,1553,0.07,8,1,1,UI_SETTING (toyota_nodsu_pt_generated)
+2,0x614,1556,0.10,8,1,1,BLINKERS_STATE (toyota_nodsu_pt_generated)
+2,0x620,1568,0.25,8,1,1,BODY_CONTROL_STATE (toyota_nodsu_pt_generated)
+2,0x622,1570,0.07,8,1,1,LIGHT_STALK (toyota_nodsu_pt_generated)
+2,0x623,1571,0.07,8,1,1,CERTIFICATION_ECU (toyota_nodsu_pt_generated)
+2,0x624,1572,0.08,8,1,1,
+2,0x638,1592,0.08,8,1,1,DOOR_LOCKS (toyota_nodsu_pt_generated)
+2,0x63B,1595,0.13,8,1,1,
+2,0x671,1649,0.07,8,1,1,
+2,0x6F3,1779,0.07,8,1,1,ADAS_TOGGLE_STATE (toyota_nodsu_pt_generated)
+2,0x700,1792,0.11,8,1,1,
+2,0x701,1793,0.07,8,1,1,
+2,0x706,1798,0.02,8,1,1,
+2,0x707,1799,0.02,8,1,1,
+2,0x708,1800,0.21,8,1,1,
+2,0x712,1810,0.02,8,1,1,
+2,0x715,1813,0.02,8,1,1,
+2,0x720,1824,0.02,8,1,1,
+2,0x721,1825,0.02,8,1,1,
+2,0x730,1840,0.02,8,1,1,
+2,0x732,1842,0.02,8,1,1,
+2,0x733,1843,0.02,8,1,1,
+2,0x738,1848,0.02,8,1,1,
+2,0x740,1856,0.02,8,1,1,
+2,0x742,1858,0.02,8,1,1,
+2,0x743,1859,0.02,8,1,1,
+2,0x744,1860,0.02,8,1,1,
+2,0x746,1862,0.02,8,1,1,
+2,0x747,1863,0.02,8,1,1,
+2,0x74F,1871,0.03,8,1,1,
+2,0x750,1872,0.16,8,1,1,
+2,0x753,1875,0.02,8,1,1,
+2,0x757,1879,0.02,8,1,1,
+2,0x758,1880,0.23,8,1,1,
+2,0x75A,1882,0.02,8,1,1,
+2,0x760,1888,0.02,8,1,1,
+2,0x761,1889,0.02,8,1,1,
+2,0x764,1892,0.02,8,1,1,
+2,0x778,1912,0.07,8,1,1,
+2,0x780,1920,0.11,8,1,1,
+2,0x787,1927,0.02,8,1,1,
+2,0x788,1928,0.11,8,1,1,
+2,0x791,1937,0.07,8,1,1,
+2,0x799,1945,0.07,8,1,1,
+2,0x7A1,1953,0.08,8,1,1,
+2,0x7A2,1954,0.02,8,1,1,
+2,0x7A3,1955,0.02,8,1,1,
+2,0x7A9,1961,0.10,8,1,1,
+2,0x7B0,1968,0.08,8,1,1,
+2,0x7B1,1969,0.02,8,1,1,
+2,0x7B3,1971,0.02,8,1,1,
+2,0x7B7,1975,0.02,8,1,1,
+2,0x7B8,1976,0.10,8,1,1,
+2,0x7BB,1979,0.02,8,1,1,
+2,0x7C4,1988,0.11,8,1,1,
+2,0x7C6,1990,0.02,8,1,1,
+2,0x7CC,1996,0.11,8,1,1,
+2,0x7CE,1998,0.02,8,1,1,
+2,0x7D0,2000,0.02,8,1,1,
+2,0x7D1,2001,0.05,8,1,1,
+2,0x7D2,2002,0.11,8,1,1,
+2,0x7D4,2004,0.02,8,1,1,
+2,0x7D8,2008,0.02,8,1,1,
+2,0x7DA,2010,0.18,8,1,1,
+2,0x7DC,2012,0.02,8,1,1,
+2,0x7DF,2015,0.03,8,1,1,
+2,0x7E0,2016,0.08,8,1,1,
+2,0x7E1,2017,0.08,8,1,1,
+2,0x7E2,2018,0.05,8,1,1,
+2,0x7E4,2020,0.02,8,1,1,
+2,0x7E8,2024,0.05,8,1,1,
+2,0x18DA0BF1,416943089,0.02,8,1,1,
+2,0x18DA10F1,416944369,0.02,8,1,1,
+2,0x18DA1EF1,416947953,0.02,8,1,1,
+2,0x18DA28F1,416950513,0.02,8,1,1,
+2,0x18DA2BF1,416951281,0.02,8,1,1,
+2,0x18DA30F1,416952561,0.02,8,1,1,
+2,0x18DA53F1,416961521,0.02,8,1,1,
+2,0x18DA60F1,416964849,0.02,8,1,1,
+2,0x18DA61F1,416965105,0.02,8,1,1,
+2,0x18DAB0F1,416985329,0.02,8,1,1,
+2,0x18DAB5F1,416986609,0.02,8,1,1,
+2,0x18DAD0F1,416993521,0.02,8,1,1,
+2,0x18DAEFF1,417001457,0.02,8,1,1,
+2,0x18DB33F1,417018865,0.03,8,1,1,

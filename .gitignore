@@ -1,0 +1,6 @@
+# downloaded comma rlogs are large and can be re-fetched with tools/comma_segments.py download
+Logs/comma/
+tools/.cache/
+__pycache__/
+.venv/
+*.pyc

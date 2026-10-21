@@ -1,0 +1,45 @@
+VERSION ""
+
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+
+BS_:
+
+BU_: HV_ECU BATT_ECU PLG_ECU OBC MG_ECU CGW XXX
+
+
+CM_ "Toyota Prius Prime / Prius PHV ZVW52 (2017-22), 95S 351.5V 8.8kWh, 3.3kW OBC.";
+CM_ "Working DBC for the INTERNAL buses (hybrid/HV and plug-in charge CAN) that the comma camera harness does not see.";
+CM_ "Gateway-forwarded driving messages live in third_party/opendbc/toyota_nodsu_pt_generated.dbc - do not duplicate them here.";
+CM_ "Node names: HV_ECU = power management / hybrid vehicle control ECU, BATT_ECU = battery ECU (battery smart unit),";
+CM_ "PLG_ECU = plug-in charge control ECU, OBC = battery charger assembly, MG_ECU = inverter/MG ECU, CGW = central gateway.";
+CM_ "Add messages as they are confirmed from captures in Logs/ and note the capture file in the message comment.";
+CM_ BU_ HV_ECU "Power management control ECU (hybrid vehicle control ECU)";
+CM_ BU_ BATT_ECU "Battery ECU assembly / battery smart unit for the 95S pack";
+CM_ BU_ PLG_ECU "Plug-in charge control ECU - controls the OBC and talks to the EVSE (CP/PP)";
+CM_ BU_ OBC "Battery charger assembly (3.3 kW onboard charger)";
+CM_ BU_ MG_ECU "MG ECU inside the inverter with converter assembly";
+CM_ BU_ CGW "Central gateway ECU";
